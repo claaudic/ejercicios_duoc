@@ -1,0 +1,15 @@
+usuario = input ("Ingrese su Usuario \n")
+constraseña = input ("Ingrese su Contraseña \n")
+print ("---------------------")
+print ("| Inicio de sesion |")
+print ("---------------------")
+usuario1 = input("Usuario: ")
+while usuario != usuario1:
+    print ("Usuario Incorrecto, Intentelo denuevo")
+    usuario1 = input("Usuario : ")
+print ("Usuario Correcto!")
+constraseña1 = input("Contraseña: ")
+while constraseña != constraseña1:
+    print ("Contraseña Incorrecta, Intentelo denuevo")
+    constraseña1 = input ("Contraseña: ")
+print ("Contraseña Correcta!")
