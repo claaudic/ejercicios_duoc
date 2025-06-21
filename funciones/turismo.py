@@ -77,4 +77,5 @@ def menu_principal():
                 print("Debe ingresar una opcion entre 1 y 4")
         except ValueError:
             print("Opcion no valida")
+
 menu_principal()
